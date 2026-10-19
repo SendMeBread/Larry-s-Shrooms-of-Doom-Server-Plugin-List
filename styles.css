@@ -10,10 +10,19 @@
 }
 
 .cat_button {
+    display: inline-block;
     padding: 2em 3em;
     font-size: 2rem;
     font-weight: bold;
     background-color: #000;
+    color: #EC2222;
+    text-decoration: none;
+    border: 4px outset #EC2222;
+}
+
+.cat_button:active,
+.cat_button:hover {
+    border: 4px inset #EC2222;
 }
 
 @keyframes shine {
