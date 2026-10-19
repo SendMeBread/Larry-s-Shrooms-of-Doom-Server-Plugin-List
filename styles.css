@@ -1,0 +1,28 @@
+.moving-gradient-text{
+    font-size: 4rem;
+    font-weight: bold;
+
+    background: linear-gradient(to right, #1100DD, #99FF00, #FFCC00, #9900CC, #FF6600, #FF0099);
+    background-size: 400% 400%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 3s linear infinite;
+}
+
+.cat_button {
+    padding: 2em 3em;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #000;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
