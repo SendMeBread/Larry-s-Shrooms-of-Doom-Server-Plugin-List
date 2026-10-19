@@ -6,8 +6,8 @@ html {
     background-size: 400% 400%;
 
 
-    animation: shine 14s ease infinite;
-    -webkit-animation: shine 14s ease infinite;
+    animation: shine 9s linear infinite;
+    -webkit-animation: shine 9s linear infinite;
 }
 
 .cat_button {
