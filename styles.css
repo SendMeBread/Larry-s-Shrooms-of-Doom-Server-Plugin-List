@@ -1,6 +1,6 @@
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
     background: linear-gradient(-35, #1100DD, #99FF00, #FFCC00, #9900CC, #FF6600, #FF0099);
     background-size: 400% 400%;
