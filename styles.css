@@ -1,5 +1,5 @@
-.moving-gradient-bg{
-    width: 100%;
+body{
+    width: 100vw;
     height: 100vh;
 
     background: linear-gradient(-35, #1100DD, #99FF00, #FFCC00, #9900CC, #FF6600, #FF0099);
@@ -20,7 +20,6 @@
     border: 4px outset #EC2222;
 }
 
-.cat_button:active,
 .cat_button:hover {
     border: 4px inset #EC2222;
 }
