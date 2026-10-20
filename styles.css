@@ -50,6 +50,7 @@ h1 {
 
 .cat_button:hover {
     border: 4px inset #314f3f;
+
     color: #314f3f;
     font-weight: bold;
 }
