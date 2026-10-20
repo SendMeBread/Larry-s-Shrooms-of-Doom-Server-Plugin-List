@@ -8,6 +8,7 @@ html {
 
     animation: shine 9s ease infinite;
     -webkit-animation: shine 9s ease infinite;
+    font-family: "New Rocker", system-ui;
 }
 
 .gradient_text {
@@ -22,7 +23,6 @@ html {
 
     animation: shine 12s linear infinite;
     -webkit-animation: shine 12s linear infinite;
-    font-family: "New Rocker", system-ui;
 }
 
 h1 {
