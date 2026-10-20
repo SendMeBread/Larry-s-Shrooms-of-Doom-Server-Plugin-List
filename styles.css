@@ -10,6 +10,23 @@ html {
     -webkit-animation: shine 9s ease infinite;
 }
 
+body {
+    width: auto;
+    height: auto;
+
+    background: linear-gradient(35deg, #0033FF, #CCDD00, #6600FF, #33CC00, #0099FF, #00FF66);
+    background-size: 400% 400%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 12s linear infinite;
+    -webkit-animation: shine 12s linear infinite;
+}
+
 h1 {
     text-align: center;
     font-size: 4rem;
@@ -27,7 +44,7 @@ h1 {
     height: 5rem;
     font-size: 2rem;
     font-weight: bold;
-    background-color: #000;
+    background-color: #00000099;
     color: #EC2222;
     text-decoration: none;
     border: 4px outset #EC2222;
