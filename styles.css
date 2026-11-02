@@ -45,14 +45,15 @@ h1 {
     background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
     background-size: 300% 300%
     background-clip: text;
+    background-position: center;
     -webkit-background-clip: text;
     text-decoration: none;
     border: 4px outset #EC2222;
     margin: 1rem;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    animation: shine 15s linear infinite;
-    -webkit-animation: shine 15s linear infinite;
+    animation: rad-shine 15s linear infinite;
+    -webkit-animation: rad-shine 15s linear infinite;
 }
 
 .cat_button:hover {
@@ -61,20 +62,25 @@ h1 {
     font-weight: bold;
 }
 
-@keyframes shine {
+@keyframes rad-shine {
     0% {
         background-size: 25% 25%;
     }
-    100% {
+    50% {
         background-size: 100% 100%;
     }
+    100% {
+        background-size: 25% 25%;
 }
-@-webkit-keyframes shine {
+@-webkit-keyframes rad-shine {
     0% {
         background-size: 25% 25%;
     }
-    100% {
+    50% {
         background-size: 100% 100%;
+    }
+    100% {
+        background-size: 25% 25%'
     }
 }
 
