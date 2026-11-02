@@ -45,11 +45,11 @@ h1 {
     text-decoration: none;
     border: 4px outset #EC2222;
     margin: 1rem;
-    color: #EC2222
+    color: #4F3141;
 }
 
 .cat_button:hover {
-    border: 4px inset #314f3f;
+    border: 4px inset #314F3F;
 
     color: #314f3f;
     font-weight: bold;
