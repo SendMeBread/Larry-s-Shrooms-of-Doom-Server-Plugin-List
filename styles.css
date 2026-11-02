@@ -33,6 +33,15 @@ h1 {
 .cat_nav {
     text-align: center;
     margin-top: 2rem;
+    background-position: center;
+    background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
+    background-size: 300% 300%
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: rad-shine 15s linear infinite;
+    -webkit-animation: rad-shine 15s linear infinite;
 }
 
 .cat_button {
@@ -42,18 +51,9 @@ h1 {
     width: 20rem;
     height: 5rem;
     font-size: 2rem;
-    background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
-    background-size: 300% 300%
-    background-clip: text;
-    background-position: center;
-    -webkit-background-clip: text;
     text-decoration: none;
     border: 4px outset #EC2222;
     margin: 1rem;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: rad-shine 15s linear infinite;
-    -webkit-animation: rad-shine 15s linear infinite;
 }
 
 .cat_button:hover {
