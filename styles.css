@@ -7,7 +7,7 @@ html {
 
 
     animation: rad-shine 9s ease infinite;
-    -webkit-animation: rad-shine 9s ease infinite;
+    -webkit-animation: lin-shine 9s ease infinite;
     font-family: "New Rocker", system-ui;
 }
 
@@ -81,6 +81,30 @@ h1 {
     }
     100% {
         background-size: 25% 25%'
+    }
+}
+
+@keyframes lin-shine {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+@-webkit-keyframes lin-shine {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
     }
 }
 
