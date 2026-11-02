@@ -38,20 +38,26 @@ h1 {
 .cat_button {
     display: inline-block;
     line-height: 5rem;
+    background-color: #000000;
     width: 20rem;
     height: 5rem;
     font-size: 2rem;
-    background-color: #000000;
+    background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
+    background-size: 300% 300%
+    background-clip: text;
+    -webkit-background-clip: text;
     text-decoration: none;
     border: 4px outset #EC2222;
     margin: 1rem;
-    color: #4F3141;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: shine 15s linear infinite;
+    -webkit-animation: shine 15s linear infinite;
 }
 
 .cat_button:hover {
-    border: 4px inset #314F3F;
-
-    color: #314f3f;
+    border: 4px inset #EC2222;
+    color: #314F3F;
     font-weight: bold;
 }
 
