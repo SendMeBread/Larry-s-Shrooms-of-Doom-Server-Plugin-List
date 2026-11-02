@@ -42,11 +42,11 @@ h1 {
     -webkit-text-fill-color: transparent;
     animation: rad-shine 15s linear infinite;
     -webkit-animation: rad-shine 15s linear infinite;
+    background-color: #000000;
 }
 
 .cat_button {
     display: inline-block;
-    background: #000000;
     line-height: 5rem;
     width: 20rem;
     height: 5rem;
