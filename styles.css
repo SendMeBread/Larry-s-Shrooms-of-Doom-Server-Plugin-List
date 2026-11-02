@@ -42,7 +42,6 @@ h1 {
     -webkit-text-fill-color: transparent;
     animation: rad-shine 15s linear infinite;
     -webkit-animation: rad-shine 15s linear infinite;
-    background-color: #000000;
 }
 
 .cat_button {
@@ -54,6 +53,7 @@ h1 {
     text-decoration: none;
     border: 4px outset #EC2222;
     margin: 1rem;
+    background-color: #000000;
 }
 
 .cat_button:hover {
