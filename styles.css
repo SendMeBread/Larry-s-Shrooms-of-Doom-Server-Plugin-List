@@ -21,8 +21,8 @@ html {
     color: transparent;
     -webkit-text-fill-color: transparent;
 
-    animation: rad-shine 12s linear infinite;
-    -webkit-animation: rad-shine 12s linear infinite;
+    animation: rad-shine 12s ease infinite;
+    -webkit-animation: rad-shine 12s ease infinite;
 }
 
 h1 {
