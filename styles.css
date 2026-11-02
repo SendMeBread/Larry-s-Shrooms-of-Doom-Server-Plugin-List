@@ -6,7 +6,7 @@ html {
     background-size: 400% 400%;
 
 
-    animation: rad-shine 9s ease infinite;
+    animation: lin-shine 9s ease infinite;
     -webkit-animation: lin-shine 9s ease infinite;
     font-family: "New Rocker", system-ui;
 }
