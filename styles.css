@@ -51,14 +51,12 @@ h1 {
     height: 5rem;
     font-size: 2rem;
     text-decoration: none;
-    border: 4px outset #EC2222;
+    border: 8px outset #EC2222;
     margin: 1rem;
-    background-color: #000000;
 }
 
 .cat_button:hover {
-    border: 4px inset #EC2222;
-    color: #314F3F;
+    border: 8px inset #314F3F;
     font-weight: bold;
 }
 
