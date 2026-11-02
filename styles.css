@@ -35,7 +35,7 @@ h1 {
     margin-top: 2rem;
     background-position: center;
     background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
-    background-size: 300% 300%
+    background-size: 300% 300%;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
