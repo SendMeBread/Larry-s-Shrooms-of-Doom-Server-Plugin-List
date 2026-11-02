@@ -46,7 +46,7 @@ h1 {
 
 .cat_button {
     display: inline-block;
-    background-color: #000000;
+    background: #000000;
     line-height: 5rem;
     width: 20rem;
     height: 5rem;
