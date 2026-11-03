@@ -7,7 +7,6 @@ html {
 
 
     animation: lin-shine 9s ease infinite;
-    -webkit-animation: lin-shine 9s ease infinite;
     font-family: "New Rocker", system-ui;
 }
 
@@ -16,15 +15,12 @@ html {
     background-size: 400% 400%;
 
     background-clip: text;
-    -webkit-background-clip: text;
 
     background-position: center;
 
     color: transparent;
-    -webkit-text-fill-color: transparent;
 
     animation: rad-shine 12s ease infinite;
-    -webkit-animation: rad-shine 12s ease infinite;
 }
 
 h1 {
@@ -39,11 +35,8 @@ h1 {
     background: radial-gradient(#FBBF18, #43DFA9, #FF524D, #06A79A, #F5F97B);
     background-size: 300% 300%;
     background-clip: text;
-    -webkit-background-clip: text;
     color: transparent;
-    -webkit-text-fill-color: transparent;
     animation: rad-shine 15s linear infinite;
-    -webkit-animation: rad-shine 15s linear infinite;
 }
 
 .cat_button {
@@ -72,30 +65,7 @@ h1 {
     100% {
         background-size: 25% 25%;
 }
-@-webkit-keyframes rad-shine {
-    0% {
-        background-size: 25% 25%;
-    }
-    50% {
-        background-size: 100% 100%;
-    }
-    100% {
-        background-size: 25% 25%;
-    }
-}
-
 @keyframes lin-shine {
-    0% {
-        background-position: 100% 0%;
-    }
-    50% {
-        background-position: 50% 50%;
-    }
-    100% {
-        background-position: 0% 100%;
-    }
-}
-@-webkit-keyframes lin-shine {
     0% {
         background-position: 100% 0%;
     }
